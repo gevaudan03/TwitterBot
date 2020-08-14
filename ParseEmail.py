@@ -8,10 +8,10 @@ import email.parser
 import tweepy
 import time
 
-CONSUMER_KEY = 'AwolUwGw5eD8W81QIqdvq55pq'
-CONSUMER_SECRET = 'Yaf8VaFjDijQUgPsoKP7NM6Nr1f3I4TfB5crcQhqYF2r9Yz9CY'
-ACCESS_KEY = '1258461717253799937-0fjAVbx27dhugqg6lv4N0NccOCY5nE'
-ACCESS_SECRET = 'slGCWz0Wxh9nBUz7LJ1wMcyEI3iEbB74N7YomcHsLicH2'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 
 #login to Twitter
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -21,8 +21,8 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 #Gmail credidential
-username = 'durabilitypapers@gmail.com'
-password = 'Conc1992dur'
+username = ''
+password = ''
 
 #connect to gmail and login with login informations
 mail = imaplib.IMAP4_SSL("imap.gmail.com")
